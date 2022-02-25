@@ -1,4 +1,4 @@
-.pelotasFixed{
+/*.pelotasFixed{
     background:lightgray;
     background-image: url(ball.png);
     background-size: 200px 200px;
@@ -6,25 +6,8 @@
     height: 200px;
     position:fixed;
     left: -1px;
-}
-.pelotaPeque{
-    background:lightgray;
-    background-image: url(ball.png);
-    background-size: 200px 200px;
-    width: 200px;
-    height: 200px;
-}
+}*/
 
-
-.pelotaGrande{
-    background:gray;
-    background-image: url(ball.png);
-    background-size: 400px 400px;
-    width: 400px;
-    height: 400px;
-    position:absolute;
-    left:200px;
-}
 
 .portePeque{
     background:lightgray;
@@ -32,9 +15,9 @@
     background-size: 400px 200px;
     width: 400px;
     height: 200px;
-    position:absolute;
-    left:200px;
-    top:400px;
+    position:fixed;
+    left:800px;
+    top:0px;
 }
 
 .porteGrande{
@@ -43,9 +26,32 @@
     background-size: 800px 400px;
     width: 800px;
     height: 400px;
-    position:absolute;
-    left:200px;
-    top:600px;
+    position:fixed;
+    left:0px;
+    top:0px;
+}
+.pelotaPeque{
+    background:;
+    background-image: url(ball.png);
+    background-size: 200px 200px;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 900px;
+    top: 250px;
 }
 
+
+.pelotaGrande{
+    background:;
+    background-image: url(ball.png);
+    background-size: 400px 400px;
+    width: 400px;
+    height: 400px;
+    position:absolute;
+    left:200px;
+    position: absolute;
+    left: 200px;
+    top: 250px;
+}
 
